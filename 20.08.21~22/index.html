@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="artist">
+      <nav class="nav-artist">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-search"></i>
+      </nav>
+
+      <div class="artist__info-big">
+        <img src="img/IU-love poem.png" />
+        <span class="artist__info__title">IU</span>
+        <span class="artist__info__text">K-POP</span>
+      </div>
+
+      <div class="shuffle-like">
+        <span class="shuffle">shuffle</span>
+        <span class="like">
+          <i class="fas fa-heart"></i>
+          3.3M
+        </span>
+      </div>
+      <div class="music-list-container">
+        <div class="artist__music-list list-1">
+          <div class="artist__music-list__column">
+            <img src="img/IU-love poem.png" />
+            <div class="artist__music-list__column__info">
+              <span class="artist__music-list__column__info__artist">IU</span>
+              <span class="artist__music-list__column__info__title"
+                >Blueming</span
+              >
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+        <div class="artist__music-list list-2">
+          <div class="artist__music-list__column">
+            <div class="artist__music-list__album">
+              <i class="fas fa-signal"></i>
+              <img src="img/IU-Into the I-Land.png" />
+            </div>
+            <div class="artist__music-list__column__info">
+              <span class="artist__music-list__column__info__artist">IU</span>
+              <span class="artist__music-list__column__info__title"
+                >Into the I-Land</span
+              >
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+        <div class="artist__music-list list-3">
+          <div class="artist__music-list__column">
+            <img src="img/IU-Palette (feat. G-DREAGON).png" />
+            <div class="artist__music-list__column__info">
+              <span class="artist__music-list__column__info__artist">IU</span>
+              <span class="artist__music-list__column__info__title"
+                >Palette</span
+              >
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+        <div class="artist__music-list list-4">
+          <div class="artist__music-list__column">
+            <img src="img/IU-eight.png" />
+            <div class="artist__music-list__column__info">
+              <span class="artist__music-list__column__info__artist">IU</span>
+              <span class="artist__music-list__column__info__title">eight</span>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <div class="mini-player">
+        <div class="mini-player__artist-info">
+          <span class="mini-player__artist-info__artist">IU</span>
+          <span class="mini-player__artist-info__title">Into the I-Land</span>
+        </div>
+        <div class="mini-player__controller">
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-grip-lines-vertical"></i>
+          <i class="fas fa-step-forward"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <nav class="nav-music-player">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </nav>
+
+      <div class="now-playing">
+        <img src="img/IU-Into the I-Land.png" />
+        <span class="now-playing__title">Into the I-Land</span>
+        <span class="now-playing__artist">IU</span>
+      </div>
+
+      <div class="time-line">
+        <div class="time-line__time">
+          <span class="time-line__time__munber">0:00</span>
+          <span class="time-line__time__munber">-3:37</span>
+        </div>
+        <div class="time-line__line">
+          <div class="time-line__line__circle"></div>
+          <div class="time-line__line__main"></div>
+        </div>
+      </div>
+
+      <div class="music-controler">
+        <i class="fas fa-sync-alt"></i>
+        <i class="fas fa-step-backward"></i>
+        <i class="fas fa-play"></i>
+        <i class="fas fa-step-forward"></i>
+        <i class="fas fa-random"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7d1aec5952.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

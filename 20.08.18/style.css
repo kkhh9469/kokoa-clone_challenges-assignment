@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  background-color: #6bbcbe;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes orbitDot {
+  50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  animation: orbitDot 1s ease-in-out infinite;
+}
+
+.dot {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+}
+
+@keyframes increaseStiks {
+  40% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(2);
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stiks {
+  width: 13px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+footer :nth-child(1) {
+  animation: increaseStiks 1s ease-in-out infinite;
+}
+footer :nth-child(2) {
+  animation: increaseStiks 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+footer :nth-child(3) {
+  animation: increaseStiks 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+footer :nth-child(4) {
+  animation: increaseStiks 1s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+footer :nth-child(5) {
+  animation: increaseStiks 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}

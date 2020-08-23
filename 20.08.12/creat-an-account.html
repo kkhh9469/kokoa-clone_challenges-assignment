@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link
+      rel="shorcut icon"
+      href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico"
+    />
+    <title>Create An Account</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="First-name">First name</label>
+          <input
+            required
+            id="First-name"
+            placeholder="First name"
+            type="text"
+          />
+        </div>
+
+        <div>
+          <label for="Last-name">Last name</label>
+          <input required id="Last-name" placeholder="Last name" type="text" />
+        </div>
+
+        <div>
+          <label for="Email">Email</label>
+          <input required id="Email" placeholder="Email" type="email" />
+        </div>
+        <div>
+          <label for="User-name">Username</label>
+          <input required id="User-name" placeholder="Username" type="text" />
+        </div>
+
+        <div>
+          <label for="Password">Password</label>
+          <input
+            required
+            id="Password"
+            placeholder="Password"
+            type="password"
+            minlength="10"
+          />
+        </div>
+
+        <div>
+          <label for="Birth-date">Birth date</label>
+          <input
+            required
+            id="Birth-date"
+            placeholder="yyyy/mm/dd"
+            type="date"
+          />
+        </div>
+
+        <div>
+          <label for="How-happy-are-you">How happy are you?</label>
+          <input
+            required
+            id="How-happy-are-you"
+            type="range"
+            list="tickmarcks"
+          />
+          <datalist id="tickmarcks">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+          </datalist>
+        </div>
+
+        <div>
+          <label for="What-is-your-fav-color">What is your fav. color?</label>
+          <input required id="What-is-your-fav-color" type="color" />
+        </div>
+
+        <input type="submit" value="Creat Accaount" />
+      </form>
+    </main>
+  </body>
+</html>

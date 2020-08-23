@@ -1,0 +1,61 @@
+.artist__music-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 15px;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.artist__music-list img {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.artist__music-list__column {
+  display: flex;
+}
+
+.artist__music-list__column__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist__music-list__column__info__artist {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+.artist__music-list__column__info__title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.artist__music-list i {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.list-2 {
+  box-shadow: -3px 3px 5px 3px rgba(185, 185, 185, 0.1);
+}
+
+.artist__music-list__album {
+  position: relative;
+}
+.artist__music-list__album i {
+  position: absolute;
+  color: white;
+  padding: 9px 7px;
+  border-radius: 7px;
+  opacity: 0.95;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-ellipsis-v {
+  font-size: 14px;
+}

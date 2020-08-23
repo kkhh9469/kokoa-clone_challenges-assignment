@@ -1,0 +1,20 @@
+.music-controler {
+  margin: 43px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.fa-sync-alt,
+.fa-random {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fa-play {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #222222;
+  color: white;
+  box-shadow: 2px 2px 15px 5px rgba(15, 32, 34, 0.2);
+}

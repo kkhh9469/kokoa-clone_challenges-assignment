@@ -1,0 +1,8 @@
+.nav-artist,
+.nav-music-player {
+  margin: 30px 20px;
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+  color: #323232;
+}

@@ -1,0 +1,64 @@
+.book-of-the-day__title {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.book-of-the-day {
+  display: flex;
+  margin-left: 20px;
+}
+.book-of-the-day__book-img {
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+}
+.book-of-the-day__info {
+  margin-left: 15px;
+}
+.book-of-the-day__info__book {
+  display: flex;
+  flex-direction: column;
+}
+.book-of-the-day__info__book__title {
+  font-size: 25px;
+  font-weight: 400;
+}
+.book-of-the-day__info__book__writer {
+  margin: 15px 0px;
+  opacity: 0.6;
+}
+.book-of-the-day__info__book__stars {
+  color: #ffce31;
+}
+.book-of-the-day__info__book__stars :last-child {
+  color: gray;
+  opacity: 0.2;
+}
+
+.book-of-the-day__info__etc__read,
+.book-of-the-day__info__etc__price {
+  margin-top: 30px;
+}
+.book-of-the-day__info__etc__read :first-child,
+.book-of-the-day__info__etc__read :last-child {
+  background-color: #e1e1e1;
+  margin-right: 5px;
+  padding: 6px 16px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.book-of-the-day__info__etc__price :first-child {
+  background-color: #ffce31;
+  padding: 15px 16px;
+  border-radius: 48%;
+  font-size: 20px;
+}
+.book-of-the-day__info__etc__price :last-child {
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  padding: 15px 30px;
+  border-radius: 7px;
+}

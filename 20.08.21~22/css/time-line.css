@@ -1,0 +1,36 @@
+.time-line {
+  margin: 0px 20px;
+  margin-top: 25px;
+}
+
+.time-line__time {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-line__time__munber {
+  margin: 0px 5px;
+  font-size: 11px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.time-line__line {
+  position: relative;
+}
+
+.time-line__line__circle {
+  position: absolute;
+  top: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #222222;
+}
+
+.time-line__line__main {
+  padding: 2px 100px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}

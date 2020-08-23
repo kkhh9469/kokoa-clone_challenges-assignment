@@ -1,0 +1,30 @@
+.popular-authors__title {
+  margin: 25px 0px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.popular-authors {
+  margin-left: 20px;
+  display: flex;
+}
+.popular-authors__img {
+  height: 150px;
+  border-radius: 10px;
+}
+.popular-authors__info {
+  margin-left: 30px;
+}
+
+.popular-authors__info :first-child {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.popular-authors__info :last-child {
+  margin-right: 20px;
+  font-size: 15px;
+  opacity: 0.4;
+}

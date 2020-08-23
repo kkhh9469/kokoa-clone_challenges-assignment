@@ -1,0 +1,28 @@
+.shuffle-like {
+  display: flex;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+.shuffle {
+  margin-right: 10px;
+  background-color: #222222;
+  color: white;
+}
+
+.shuffle,
+.like {
+  padding: 10px 23px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.like {
+  display: flex;
+  background-color: white;
+  box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.like i {
+  margin-right: 5px;
+}
